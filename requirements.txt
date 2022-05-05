@@ -1,0 +1,7 @@
+numpy==1.22.3
+opencv-contrib-python==4.5.5.64
+google-cloud-storage==2.3.0
+fastapi==0.75.2
+uvicorn==0.17.6
+pydantic==1.9.0
+Pillow==9.1.0
