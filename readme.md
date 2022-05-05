@@ -1,11 +1,12 @@
 # Previous requirements
-- Setup a google service account with enough permissions to use buckets
+- Setup a google service account with enough permissions to use buckets.
+- Download the google_service_account.json file, rename it and put on the root directory.
 - Create a bucket with the next folder structure:
     - bucket/
         - input/
         - output/
         - template_file
-
+- The diploma template need to aruco markers, you can find a template in assets direcotory. 
 # Some useful commands
 ### Build docker image
 ```bash
@@ -25,3 +26,6 @@ In your browser go to http://localhost/docs#
 ```bash 
 gcloud run deploy --source .
 ```
+
+## Result 
+You can see an example in assets directory
